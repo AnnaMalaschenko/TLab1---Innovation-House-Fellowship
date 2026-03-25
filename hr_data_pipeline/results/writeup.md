@@ -3,11 +3,11 @@
 # Phase 1 was the most active period because both the median and average heartrate are the highest of all the phases.
 Average heartrate was 87.3, and the median heartrate was 88.5.
 
-For this person's age, their target heart rate is 95-162 bpm, which the median is below this target, which means that if they were collecting this data while physically active, most of the time their heartrate was below the target. They did have individual heartrate values that went above 95 bpm, which means they did occasionally hit that mark.
+# For this person's age, their target heart rate is 95-162 bpm. In Phase 1 the median is below this target, which means that most of the time their heartrate was below the target range. They did have individual heartrate values that went above 95 bpm, meaning that they occasionally hit the range.
 
 2) Which file had the **poorest** data quality? How do you know?
 
-Phase 0 had the poorest data quality because it had the most missing values (as indicated by the "Number of Removed Values" counter being 3).
+# Phase 0 had the poorest data quality because it had the most missing values (as indicated by the "Number of Removed Values" counter being 3).
 
 3) Suppose one heart-rate file contains the following cleaned values: `68, 70, 71, 72, 72, 73, 74, 75, 180`. The value 180 was recorded during a sensor glitch.
 
@@ -16,8 +16,7 @@ Range = 180 - 68 = 112
 
 
 b) Explain how the extreme value affects the range.
-The extreme value would have us think that the numbers are widely varied and can be found between 68 - 180, but most numbers are in fact between 68-75. The single outlier can make us think there are values above 75 other than the single outlier.
-
+# The extreme value would have us think that the numbers are widely varied and can be found between 68 - 180, but all but one are in fact between 68-75. The single outlier results in a calculated range which can make us think there are values above 75 other than the single outlier.
 
 c) Identify a different statistic that would better represent the typical variability of the dataset. Why would this measure be better?
-The inter quartline ranges can better help us understand the variability because they use middle values, meaning they capture the variability within the main body of the dataset, without including outliers.
+# The interquartline range can better help us understand the variability because it capctures the middle 50% of the dataset without including the outliers.
